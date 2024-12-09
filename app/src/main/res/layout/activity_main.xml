@@ -10,38 +10,38 @@
         android:id="@+id/enterAnagram"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Anagram"
+        android:hint="@string/enter_anagram"
         android:inputType="text" />
 
     <Button
         android:id="@+id/saveButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Save" />
+        android:text="@string/save" />
 
     <Button
         android:id="@+id/outputButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Output" />
+        android:text="@string/output" />
 
     <Button
         android:id="@+id/clearButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clear" />
+        android:text="@string/clear" />
 
     <Button
         android:id="@+id/connectButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Connect and Transfer" />
+        android:text="@string/connect_and_transfer" />
 
     <TextView
         android:id="@+id/anagramsTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Anagrams"
+        android:text="@string/anagrams"
         android:layout_marginTop="22dp"
         android:textSize="22sp" />
 
