@@ -38,9 +38,10 @@ class MainActivity : AppCompatActivity() {
             val groupedAnagrams = listOfWords.groupBy { it.toCharArray().sorted().joinToString("") }
             val result = groupedAnagrams.values.joinToString("\n") { it.toString() }
             binding.anagramsTextView.text = result
+            binding.numOfAnagrams.text ="number of anagrams: ${groupedAnagrams.size}"
         }
         binding.connectButton.setOnClickListener {
-            Toast.makeText(this,"Text:Hello i am hacker from tbc it academy - has been sent to other devices.",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Text:Hello i am hacker from tbc it academy - has been sent to the other devices.",Toast.LENGTH_LONG).show()
         }
     }
 }

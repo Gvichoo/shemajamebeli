@@ -44,6 +44,12 @@
         android:text="@string/anagrams"
         android:layout_marginTop="22dp"
         android:textSize="22sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="num of anagrams"
+        android:id="@+id/numOfAnagrams"
+        android:textSize="22sp"/>
 
 
 
